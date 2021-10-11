@@ -1,0 +1,12 @@
+package com.tcs;
+
+public class MenuItem {
+	private int Itemid;
+	private int name;
+	private int count;
+	Rating rating;
+	
+	
+	
+
+}

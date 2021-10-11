@@ -1,0 +1,15 @@
+package com.tcs;
+
+public class MenuItem {
+	private int itemId;
+	private String name;
+	Rating rating;
+	public MenuItem() {
+		super();
+	}
+	
+	
+	
+	
+
+}

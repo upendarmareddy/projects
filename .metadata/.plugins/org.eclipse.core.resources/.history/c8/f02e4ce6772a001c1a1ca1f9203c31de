@@ -1,0 +1,13 @@
+package com.tcs;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Starter {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		MenuItem item1 = (MenuItem) context.getBean("item1");
+		System.out.println("Item1 Details:"+item1);
+	}
+
+}

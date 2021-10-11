@@ -1,0 +1,31 @@
+package com.tcs;
+
+public class Rating {
+	private int itemId;
+	private int rating;
+	public Rating() {
+		super();
+	}
+	public Rating(int itemId, int rating) {
+		super();
+		this.itemId = itemId;
+		this.rating = rating;
+	}
+	public int getItemId() {
+		return itemId;
+	}
+	public void setItemId(int itemId) {
+		this.itemId = itemId;
+	}
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	
+	
+	
+	
+
+}
