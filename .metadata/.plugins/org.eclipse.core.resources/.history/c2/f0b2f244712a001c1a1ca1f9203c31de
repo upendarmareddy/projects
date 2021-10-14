@@ -1,9 +1,0 @@
-package com.tcs;
-
-public class User {
-	private int userId;
-	private String name;
-	Cart[] cart;
-	
-
-}
